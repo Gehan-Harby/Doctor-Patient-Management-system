@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+   justify-content: center;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: black ;
+    font-weight: bold;
+  }
+  
+  button[name="save"] {
+   background-color:  rgb(28, 12, 177);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 23%;
+    font-weight: bold;
+	padding-bottom: 27px;  
+  font-size: large;
+  }
+ button[name="reset"] {
+  font-size: large;
+    background-color:  rgb(28, 12, 177);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 3%;
+    width: 23%;
+    font-weight: bold;
+	padding-bottom: 27px;
+}
+
+ button[type=submit ]:hover {
+    background-color: rgb(88, 105, 255);
+  }
+  button[type=reset]:hover {
+    background-color: rgb(88, 105, 255);
+  }
+  #main{
+    background-image: url(/images/mainbackground.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment:fixed ;
+  }
+  
+
+  .container {
+    border-radius: 10px;
+    background-color: #c7cfd8;
+    padding: 20px;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+   
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-35 {
+    float: left;
+    width: 25%;
+	
+    
+  }
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+.col-55 {
+    float: right;
+    width: 40%;
+    margin-top: 6px;
+	
+  }
+.col-65 {
+    float: left;
+    width: 35%;
+	margin-top: 6px
+   
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+	
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+   
+/* Nav bar */
+nav {
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+}
+nav li.align-right {
+  margin-left: auto;
+}
+nav a {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: navy;
+}
+nav a.img {
+  padding: 0;
+}
+nav a:hover {
+  color: deepskyblue;
+}
+nav a.active {
+  border-bottom: 5px solid deepskyblue;
+}
+nav img {
+  width: 60px;
+}

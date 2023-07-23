@@ -1,0 +1,152 @@
+/*****************************new doctor****/  
+body{
+    background:#dde3eb;
+    border: 1px solid #bfacac;
+    margin: auto;
+    border-radius:7px;
+    @media screen and ()
+}
+.doc{
+    font-size:x-large;
+    color: rgb(28, 12, 177);
+    text-shadow: 1px 1px 2px white,0 0 25px rgb(120, 129, 250), 0 0 5px rgb(94, 94, 247);
+}
+.backgroun{
+    border-radius:30px;
+    background-image: url(/images/mainbackground.jpg); 
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border: 6px solid #b2d8ed;
+    margin: 5px 5px;
+}
+
+.main-top{
+    color:white;
+    font-style:oblique;
+    font-size:30px;
+    font-family: cursive,sans-serif;
+    font-weight: bold;
+    margin-left: 350px;
+    line-height:normal;
+    text-align: left;
+    direction: ltr;
+    text-indent:20%;
+    text-transform: capitalize;
+    white-space: normal;
+    width: 40%;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    display:block;
+    border-bottom: 1px solid black;
+}
+.Name{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.mail{
+    background-color:#180f94;
+    border-radius:40px;   
+}
+.phone{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.pass{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.ssn{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.spech{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.birth{
+    background-color:#180f94;
+    border-radius:40px;
+}
+.Gender{
+    background-color:#180f94;
+    border-radius:40px;
+    padding-left: 5px;
+}
+
+.wait-list{
+    background-color: #180f94;
+    border-radius:40px;
+}
+
+button[name="save"] {
+  background-color: rgb(88, 105, 255);
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   margin-left: 2%;
+   width: 40%;
+   font-weight: bold;
+ height-bottom: 40px;
+ font-size:large;
+ padding-bottom: 27px;  
+ }
+button[name="reset"] {
+   background-color: rgb(88, 105, 255);
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   margin-left: 12%;
+   width: 40%;
+   font-weight: bold;
+   font-size:large;
+ padding-bottom: 27px;
+}
+button[type=submit]:hover {
+   background-color: rgb(215, 143, 42);
+ }
+ button[type=reset]:hover {
+   background-color: rgb(215, 143, 42);
+ }
+
+ /************new doctor Nav bar********/
+nav {
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+}
+nav li.align-right {
+  margin-left: auto;
+}
+nav a {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: navy;
+}
+nav a.img {
+  padding: 0;
+}
+nav a:hover {
+  color: deepskyblue;
+}
+nav a.active {
+  border-bottom: 5px solid deepskyblue;
+}
+nav img {
+  width: 60px;
+}
